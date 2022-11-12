@@ -1,0 +1,41 @@
+[gd_scene load_steps=9 format=3 uid="uid://12xbhbt5q05f"]
+
+[ext_resource type="Script" path="res://Camera3D.gd" id="1_2gsay"]
+[ext_resource type="Script" path="res://main.gd" id="1_p2hx8"]
+[ext_resource type="PackedScene" uid="uid://c4cju08nu26pq" path="res://executioner.tscn" id="1_pmm00"]
+[ext_resource type="Texture2D" uid="uid://b725k8ykbibvj" path="res://assets/Stars Sphere.jpg" id="2_avcov"]
+[ext_resource type="PackedScene" uid="uid://dyq1dp25shsj8" path="res://imperial.tscn" id="5_algdd"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_ng0dw"]
+panorama = ExtResource("2_avcov")
+
+[sub_resource type="Sky" id="Sky_myhki"]
+sky_material = SubResource("PanoramaSkyMaterial_ng0dw")
+
+[sub_resource type="Environment" id="Environment_ik8qr"]
+background_mode = 2
+sky = SubResource("Sky_myhki")
+ambient_light_source = 2
+ambient_light_color = Color(1, 1, 1, 1)
+tonemap_mode = 2
+glow_enabled = true
+
+[node name="Main" type="Node3D"]
+script = ExtResource("1_p2hx8")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_ik8qr")
+
+[node name="ChaseCamera" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.916174, 0.400781, 0, -0.400781, 0.916174, 0, 3.92909, 7.5389)
+script = ExtResource("1_2gsay")
+target_path = NodePath("../Executioner")
+offset = Vector3(0, 5, 10)
+
+[node name="Executioner" parent="." instance=ExtResource("1_pmm00")]
+
+[node name="FixedCamera" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8.36409)
+
+[node name="Imperial" parent="." instance=ExtResource("5_algdd")]
+transform = Transform3D(12, 0, 0, 0, 12, 0, 0, 0, 12, 564.612, 0, -711.564)

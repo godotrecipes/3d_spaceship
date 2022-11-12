@@ -1,0 +1,28 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://d2hww588ib5uk"
+path="res://.godot/imported/Pancake.gltf-ce3e30c98d08d9d31d086849f738d271.scn"
+
+[deps]
+
+source_file="res://assets/ultimate spaceships - may 2021/Pancake.gltf"
+dest_files=["res://.godot/imported/Pancake.gltf-ce3e30c98d08d9d31d086849f738d271.scn"]
+
+[params]
+
+nodes/root_type="Spatial"
+nodes/root_name="Scene Root"
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=0
+meshes/lightmap_texel_size=0.1
+skins/use_named_skins=true
+animation/import=true
+animation/fps=15
+import_script/path=""
+_subresources={}

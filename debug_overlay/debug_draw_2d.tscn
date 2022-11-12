@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://c7vth6xnwc6cv"]
+
+[ext_resource type="Script" path="res://debug_overlay/debug_draw_2d.gd" id="1_73u6q"]
+
+[node name="DebugDraw2D" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1_73u6q")

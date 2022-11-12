@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cmcbla5ntwowu"]
+
+[ext_resource type="FontFile" uid="uid://bsfhb6wdvbj1k" path="res://debug_overlay/Roboto-Medium.ttf" id="1_bfvfp"]
+
+[node name="DebugLabel" type="Label"]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_fonts/font = ExtResource("1_bfvfp")
+theme_override_font_sizes/font_size = 18

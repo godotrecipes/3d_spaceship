@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://bp30qc536vg7c"]
 
 [ext_resource type="PackedScene" uid="uid://b74bmaye85g61" path="res://debug_overlay/debug_stats.tscn" id="1_qchai"]
-[ext_resource type="Script" path="res://debug_overlay/debug_overlay.gd" id="1_ru3j6"]
+[ext_resource type="Script" uid="uid://cmdh0e4bks87k" path="res://debug_overlay/debug_overlay.gd" id="1_ru3j6"]
 [ext_resource type="PackedScene" uid="uid://4482xv5l6cn3" path="res://debug_overlay/debug_draw_3d.tscn" id="3_k7bub"]
 [ext_resource type="PackedScene" uid="uid://c7vth6xnwc6cv" path="res://debug_overlay/debug_draw_2d.tscn" id="4_qrgk5"]
 

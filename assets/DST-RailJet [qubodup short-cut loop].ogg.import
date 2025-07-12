@@ -1,7 +1,7 @@
 [remap]
 
 importer="oggvorbisstr"
-type="AudioStreamOGGVorbis"
+type="AudioStreamOggVorbis"
 uid="uid://bnh18blc13fxn"
 path="res://.godot/imported/DST-RailJet [qubodup short-cut loop].ogg-e6e39926667b91e7744b7c242a615759.oggvorbisstr"
 
@@ -14,3 +14,6 @@ dest_files=["res://.godot/imported/DST-RailJet [qubodup short-cut loop].ogg-e6e3
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

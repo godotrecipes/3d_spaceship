@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://4482xv5l6cn3"]
 
-[ext_resource type="Script" path="res://debug_overlay/debug_draw_3d.gd" id="1_2vw3h"]
+[ext_resource type="Script" uid="uid://ch7dv1arikmhn" path="res://debug_overlay/debug_draw_3d.gd" id="1_2vw3h"]
 
 [node name="DebugDraw3D" type="Control"]
 layout_mode = 3

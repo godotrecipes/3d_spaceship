@@ -4,23 +4,22 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2oqyhxuqfmgt"
 path.s3tc="res://.godot/imported/Executioner_Purple.png-ce0fa97052f223ed84b9876644fe4463.s3tc.ctex"
-path.etc2="res://.godot/imported/Executioner_Purple.png-ce0fa97052f223ed84b9876644fe4463.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc", "etc2"],
+"imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/ultimate spaceships - may 2021/Executioner_Purple.png"
-dest_files=["res://.godot/imported/Executioner_Purple.png-ce0fa97052f223ed84b9876644fe4463.s3tc.ctex", "res://.godot/imported/Executioner_Purple.png-ce0fa97052f223ed84b9876644fe4463.etc2.ctex"]
+dest_files=["res://.godot/imported/Executioner_Purple.png-ce0fa97052f223ed84b9876644fe4463.s3tc.ctex"]
 
 [params]
 
 compress/mode=2
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false

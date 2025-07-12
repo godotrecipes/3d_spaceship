@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://12xbhbt5q05f"]
 
-[ext_resource type="Script" path="res://Camera3D.gd" id="1_2gsay"]
-[ext_resource type="Script" path="res://main.gd" id="1_p2hx8"]
+[ext_resource type="Script" uid="uid://wmpi52456d3e" path="res://Camera3D.gd" id="1_2gsay"]
+[ext_resource type="Script" uid="uid://dmfpocv52yuys" path="res://main.gd" id="1_p2hx8"]
 [ext_resource type="PackedScene" uid="uid://c4cju08nu26pq" path="res://executioner.tscn" id="1_pmm00"]
 [ext_resource type="Texture2D" uid="uid://b725k8ykbibvj" path="res://assets/Stars Sphere.jpg" id="2_avcov"]
 [ext_resource type="PackedScene" uid="uid://dyq1dp25shsj8" path="res://imperial.tscn" id="5_algdd"]
